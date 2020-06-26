@@ -7,6 +7,8 @@ const greetings = require('./greetings/routes');
 
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send("hello from express");
 });
 
 app.use('/greetings/', greetings);

@@ -1,11 +1,11 @@
-# Template
+# hello-express
 
 Prerequisites
 -------------
 1. install docker
 1. install docker-compose
 1. install git
-1. clone repository: `git clone --recursive TBD`
+1. clone repository: `git clone https://github.com/zhao-li/hello-express.git`
 
 Getting Started
 ---------------

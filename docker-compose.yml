@@ -15,7 +15,12 @@ x-app-base:
     - docker/app.env
   ports:
     - ${DEFAULT_APP_PORT}
+  volumes:
+    - node_modules:${APP_DIR}/node_modules
 
 services:
   app:
     <<: *app-base
+
+volumes:
+  node_modules:

@@ -11,6 +11,11 @@ Getting Started
 ---------------
 1. run bootstrap.sh: `./bootstrap.sh`
 1. start service: `docker-compose up`
+1. browse to: `http://localhost:3000/greetings/`
+
+Other ways to interact with app:
+
+    curl "localhost:3000/greetings/"
 
 Testing
 -------

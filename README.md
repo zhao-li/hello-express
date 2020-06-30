@@ -17,6 +17,11 @@ Other ways to interact with app:
 
     curl "localhost:3000/greetings/"
 
+To get to the NodeJS/npm environment:
+
+    $ docker-compose run app bash
+    app$ npm --version
+
 Testing
 -------
 To test the application:

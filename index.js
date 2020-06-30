@@ -3,8 +3,6 @@ const express = require('express');
 const app = express();
 const port = process.env.DEFAULT_APP_PORT;
 
-const db = require('./db');
-
 const greetings = require('./greetings/routes');
 
 app.use(express.json());

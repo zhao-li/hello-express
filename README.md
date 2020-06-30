@@ -31,6 +31,20 @@ To test the application:
     $ docker-compose run app bash
     app$ scripts/test_app.sh # or npm test
 
+Interacting with the Database
+-----------------------------
+Start database:
+
+    $ docker-compose up # start application and database
+    or
+    $ docker-compose up database # start database only
+
+To connect to the database (in a separate terminal):
+
+    $ docker-compose run database bash
+    database$ psql --host database --port 5432 --dbname hello_express --username user # credentials are located in database/.env
+    psql$ SELECT * FROM greetings;
+
 Documenting
 -----------
 To document the application (not working yet):

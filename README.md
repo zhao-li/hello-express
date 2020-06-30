@@ -26,7 +26,10 @@ Testing
 -------
 To test the application:
 
-    app$ scripts/test_app.sh
+    $ docker-compose run app scripts/test_app.sh
+    or
+    $ docker-compose run app bash
+    app$ scripts/test_app.sh # or npm test
 
 Documenting
 -----------

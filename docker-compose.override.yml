@@ -6,3 +6,7 @@ services:
       - ${DEFAULT_APP_PORT}:${DEFAULT_APP_PORT}
     volumes:
       - .:${APP_DIR}/
+
+  database:
+    ports:
+      - ${DATABASE_PORT}:${DATABASE_PORT}

@@ -33,13 +33,13 @@ To test the application:
 
 Documenting
 -----------
-To document the application:
+To document the application (not working yet):
 
     app$ scripts/document_app.sh
 
 Linting
 -------
-To lint the application:
+To lint the application (not working yet):
 
     app$ scripts/lint_app.sh
 
